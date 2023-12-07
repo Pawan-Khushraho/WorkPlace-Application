@@ -233,7 +233,7 @@ const HomePage = () => {
             >
               {USERS.map((testimonial, index) => (
                 <CustomCard
-                  key={testimonial.name}
+                  key={randomUUID()}
                   className="w-[500px]
                   shrink-0s
                   rounded-xl
